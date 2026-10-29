@@ -1,20 +1,39 @@
 {
-    "name": "jason/mini-sentry",
+    "name": "jasonvanloon/mini-sentry",
     "description": "Kaas",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://jasonvanloon.nl/project/mini-sentry",
+    "support": {
+        "issues": "https://github.com/GrapJeje/Mini-Sentry/issues",
+        "source": "https://github.com/GrapJeje/Mini-Sentry"
+    },
     "autoload": {
         "psr-4": {
-            "Jason\\MiniSentry\\": "src/"
+            "JasonVanLoon\\MiniSentry\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Jason",
-            "email": "jasonvanl2019@gmail.com"
+            "name": "Jason van Loon",
+            "homepage": "https://jasonvanloon.nl",
+            "role": "Developer"
         }
     ],
+    "extra": {
+        "social": {
+            "LinkedIn": "https://www.linkedin.com/in/jason-van-loon/"
+        },
+        "laravel": {
+            "providers": [
+                "JasonVanLoon\\MiniSentry\\Laravel\\MiniSentryServiceProvider"
+            ]
+        }
+    },
     "require": {
-        "illuminate/database": "^12.0"
+        "php": "^8.3",
+        "illuminate/database": "^12.0",
+        "illuminate/events": "^12.0",
+        "illuminate/support": "^12.0"
     }
 }
