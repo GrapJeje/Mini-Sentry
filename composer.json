@@ -1,0 +1,20 @@
+{
+    "name": "jason/mini-sentry",
+    "description": "Kaas",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jason\\MiniSentry\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jason",
+            "email": "jasonvanl2019@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^12.0"
+    }
+}
